@@ -43,7 +43,7 @@ const AuthModal = () => {
       <Auth
         supabaseClient={supabaseClient}
         magicLink={true} //magiclink will be created to login directly via link only
-        providers={["github", "google"]} // can change/add it here
+        providers={["github"]} // can change/add it here
         appearance={{
           theme: ThemeSupa,
           variables: {
